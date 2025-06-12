@@ -12,11 +12,16 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "fastify": "^5.3.3"
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "fastify": "^5.3.3",
+    "pg": "^8.16.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.28.0",
     "@types/node": "^24.0.1",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.1",
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.1",
